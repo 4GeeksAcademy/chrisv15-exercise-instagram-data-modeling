@@ -1,0 +1,25 @@
+Follower
+user from id, int
+user to id, int
+
+User
+ID, int
+username, string
+firstname, string
+lastname, string
+email, string
+
+Media
+ID, int
+type, enum
+post id, int
+
+Post
+ID, int
+user id, int
+
+Comment
+ID
+comment text
+author id
+post id
